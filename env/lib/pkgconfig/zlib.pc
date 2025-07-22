@@ -1,0 +1,13 @@
+prefix=/Users/saianand/Documents/hierarchical_clustering/env
+exec_prefix=/Users/saianand/Documents/hierarchical_clustering/env
+libdir=/Users/saianand/Documents/hierarchical_clustering/env/lib
+sharedlibdir=/Users/saianand/Documents/hierarchical_clustering/env/lib
+includedir=/Users/saianand/Documents/hierarchical_clustering/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

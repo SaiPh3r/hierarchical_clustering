@@ -1,0 +1,11 @@
+prefix=/Users/saianand/Documents/hierarchical_clustering/env
+exec_prefix=/Users/saianand/Documents/hierarchical_clustering/env
+libdir=/Users/saianand/Documents/hierarchical_clustering/env/lib
+includedir=/Users/saianand/Documents/hierarchical_clustering/env/include
+
+Name: UTF8 Range
+Description: Google's UTF8 Library
+Version: 1.0
+Requires: absl_strings
+Libs: -L${libdir} -lutf8_validity -lutf8_range 
+Cflags: -I${includedir}
